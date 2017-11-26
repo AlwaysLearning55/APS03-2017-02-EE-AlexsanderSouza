@@ -60,10 +60,12 @@ Pseudo-codigo:
 */
 
 int CheckValorInvalidoMNP(int counter, int Max){
+  // Checa se counter é maior que max ou menor que -2
   if (counter <= -2 || counter > Max ){
     printf("%s\n", "Erro" );
     return -1;
   }
+  // Checa se counter é -1
   if (counter == -1)
     return 0;
 
@@ -127,6 +129,32 @@ int LeEstoqueMatrizExplicita(int M, int N, int P, int mEstoque[M][N][P]){
   } while(1);
   return 0;
 }
+
+/*
+Rotina: EscreveEstoqueMatrizExplicita
+
+Objetivo: Printa o estoque.
+
+Parametros:
+    Entrada:
+        Não há.
+    Saida:
+        Não há.
+    Entrada/Saida
+        M, N, P e mEstoque tipo int.
+Retorno:
+    0 caso saia do laço.
+    +1 caso dê certo.
+
+Pseudo-codigo:
+    Recebe valores para i.
+    Checa erros/decisões.
+    Recebe valores para j.
+    Checa erros/decisões.
+    Recebe valores para k.
+    Checa erros/decisões.
+    Lê estoque e armazena na posição escolhida.
+*/
 
 int EscreveEstoqueMatrizExplicita(int M, int N, int P, int mEstoque[M][N][P]){
   int i, j, k;
