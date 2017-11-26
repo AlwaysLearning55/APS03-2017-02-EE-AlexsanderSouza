@@ -78,11 +78,12 @@ Objetivo: Lê e armazena em uma string o estoque.
 
 Parametros:
     Entrada:
-        Não há.
+        M, N, P, mEstoque
+        Variaveis tipo int
     Saida:
         Não há.
     Entrada/Saida
-        M, N, P e mEstoque tipo int.
+        Não há.
 Retorno:
     0 caso saia do laço.
     +1 caso dê certo.
@@ -137,11 +138,11 @@ Objetivo: Printa o estoque.
 
 Parametros:
     Entrada:
-        Não há.
+        M, N, P e mEstoque tipo int.
     Saida:
         Não há.
     Entrada/Saida
-        M, N, P e mEstoque tipo int.
+        Não há.
 Retorno:
     0 caso saia do laço.
     +1 caso dê certo.
